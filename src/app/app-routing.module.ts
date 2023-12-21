@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
 import { AboutRouteComponent } from './pages/about-route/about-route.component';
 import { CreateCustomerRouteComponent } from './pages/create-customer-route/create-customer-route.component';
 import { CustomerDetailsRouteComponent } from './pages/customer-details-route/customer-details-route.component';
