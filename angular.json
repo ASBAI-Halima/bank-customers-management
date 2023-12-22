@@ -11,7 +11,6 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "outputPath": "dist/",
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/bank-customer-management",
@@ -21,12 +20,12 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
                 "src/favicon.ico",
-                 "src/assets",
-                  {
-                    "glob": "_redirects",
-                    "input": "src",
-                    "output": "/"
-                  }],
+                 "src/assets"],
+            "scripts ": {
+              "glob": "_redirects",
+              "input": "src",
+              "output": "/"
+            },
             "styles": [
               "src/styles.css",
               "node_modules/font-awesome/css/font-awesome.css"
