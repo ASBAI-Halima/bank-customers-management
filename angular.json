@@ -20,12 +20,8 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
                 "src/favicon.ico",
-                 "src/assets"],
-            "scripts ": {
-              "glob": "_redirects",
-              "input": "src",
-              "output": "/"
-            },
+                 "src/assets",
+                 "_redirects"],
             "styles": [
               "src/styles.css",
               "node_modules/font-awesome/css/font-awesome.css"
