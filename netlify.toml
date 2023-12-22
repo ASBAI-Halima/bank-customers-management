@@ -3,7 +3,3 @@
   to = "/index.html"
   status = 200
 
-[build]
-  command = "ng build --prod"
-  publish = "dist/your-angular-app"
-
